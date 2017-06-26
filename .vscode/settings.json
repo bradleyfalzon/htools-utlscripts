@@ -1,0 +1,6 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  // "go.inferGopath" :true
+  "go.gopath": "${workspaceRoot}"
+  // "go.gopath": "${workspaceRoot}/src/github.com/hypersuite/htools-utlscripts"
+}
