@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+     "configurations": [
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "port": 2345,
+            "mode": "debug",
+            "showLog": true,
+            "remotePath": "",
+            "host": "127.0.0.1",
+
+            "program": "${fileDirname}",
+            "env": {"GOPATH": "${workspaceRoot}"},
+            "args": [ "-f" , "cluster", "test000" ]
+            
+        }
+    ]
+}
